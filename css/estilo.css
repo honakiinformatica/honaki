@@ -1,0 +1,868 @@
+body{
+	background-color: #b5b193;
+	font-family: sans-serif;
+}
+
+
+header, section, footer{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+    margin-bottom: 10px;
+
+}
+
+header{
+	height: 100px;
+	background-color: #f78400;
+}
+
+h1{
+	color: #f55505;
+	text-align: center;
+	text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+	transition:all 400ms;
+	margin-top: 60px;
+	margin-bottom: -40px;
+	
+}
+h1:hover{
+	transform: scale(1.7);
+	transition: all 400ms;
+}
+
+#logo{
+	width: 350px;
+	float: left;
+}
+
+#menu{
+	width: 500px;
+	height: 100px;
+	background-color: #f78400;
+	float: right;
+}
+#menu-prin{
+	padding: 0;
+	margin-top: 40px;
+}
+#menu-prin li{
+	display: inline;
+
+}
+#menu-prin li a{
+	text-decoration: none;
+	color: #fcfdff;
+	font-size: 18px;
+	padding: 25px 10px;
+}
+#menu-prin li a:hover{
+	background-color: #f7da00;
+	color: #000000;
+}
+/*cabecera*/
+
+#contenido-central2{
+	height: 680px;
+	background-color: #b5b193; 
+    
+}
+
+
+#formulario-central{
+	width: 600px;
+	margin: auto;
+	background-color: rgba(0 ,0 ,0,0.4);
+	border-radius: 18px;
+	margin-top: 80px;
+	margin-bottom: -50px;
+}
+
+#content-all{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#content-img{
+	width: 650px;
+	height: 400px;
+	margin: auto;
+	margin-top: 100px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#content-img img{
+	width: 100%;
+	transition: all 300ms;
+}
+
+#content1{
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+	top: 0;
+	background: rgba(247, 121, 10,0.4);
+	transform: rotate(-40deg);
+	margin-left: -750px;
+	transition: all 300ms;
+}
+
+#content2{
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+	top: 0;
+	background: rgba(247, 121, 10,0.4);
+	transform: rotate(-40deg);
+	margin-left: -800px;
+	transition: all 500ms;
+}
+
+#content3{
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+	top: 0;
+	background: rgba(247, 121, 10,0.4);
+	transform: rotate(40deg);
+	margin-left: -800px;
+	margin-top: -500px;
+	transition: all 900ms;
+	box-shadow: 0px 1px 20px -5px black;
+}
+
+#content4{
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+	top: 0;
+	background: rgba(247, 121, 10,0.4);
+	transform: rotate(40deg);
+	margin-left: -850px;
+	margin-top: -500px;
+	transition: all 700ms;
+}
+
+#content-img:hover #content1{
+	width: 210%;
+	transition: all 900ms;
+}
+
+#content-img:hover #content2{
+	width: 210%;
+	transition: all 300ms;
+}
+
+#content-img:hover #content3{
+	width: 210%;
+	transition: all 500ms;
+}
+
+#content-img:hover #content4{
+	width: 210%;
+	transition: all 700ms;
+}
+
+#content-img:hover img{
+	transform: scale(1.3);
+	transition: all 300ms;
+	opacity: 0.8;
+}
+
+#texto{
+	position: absolute;
+	top: 0;
+	width: 380px;
+	padding: 10px;
+	z-index: 10;
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#texto h2{
+	font-size: 30px;
+	opacity: 0;
+	transform: scale(0.2);
+	transition: all 400ms;
+}
+
+#texto p{
+	font-size: 20px;
+	margin-top: 10px;
+	opacity: 0;
+	transition: all 600ms;
+	transform: scale(1.5);
+}
+
+#content-img:hover h2{
+	opacity: 1;
+	transition: all 300ms;
+	transform: scale(1);
+}
+
+#content-img:hover p{
+	opacity: 1;
+	transform: scale(1);
+	transition: all 500ms;
+}
+
+#contenido-central h3{
+    font-size: 24px;
+    color: #fc6c05;
+    text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+    text-align: center;
+    margin-top: 75px;
+}
+
+#foto1{
+	clear: both;
+	margin-left: 35px;
+}
+#foto2{
+	clear: both;
+	margin-left: 35px;
+}
+#foto3{
+	clear: both;
+	margin-left: 35px;
+}
+#foto4{
+	clear: both;
+	margin-left: 35px;
+}
+
+#parrafo-repar{
+	float: right;
+	width: 600px;   
+    margin: 2px;
+    margin-top: 5px;
+    padding: 3px; 
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+
+}
+#parrafo-redes{
+	float: right;
+	width: 600px;   
+    margin: 2px;
+    margin-top: 5px;
+    padding: 3px; 
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+}
+#parrafo-soporte{
+	float: right;
+	width: 600px;   
+    margin: 2px;
+    margin-top: 5px;
+    padding: 3px; 
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+}
+#parrafo-diseño{
+	float: right;
+	width: 600px;   
+    margin: 2px;
+    margin-top: 5px;
+    padding: 3px; 
+     color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+}
+
+#contenido-central h2{
+    font-size: 24px;
+    color: #fc6c05;
+    text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+    text-align: center;
+    margin-top: 75px;
+}
+
+#cont h2{
+    color: #fc6c05;
+    text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+    text-align: center;
+}
+#elegirnos{
+	text-align: center;
+    margin: 2px;
+    margin-top: 5px;
+    padding: 3px; 
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+}
+
+#humano{
+	text-align: center;  
+    margin: 2px;
+    margin-top: 5px;
+    padding: 3px; 
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+}
+
+#municipal{
+	text-align: center;  
+    margin: 2px;
+    margin-top: 5px;
+    padding: 3px; 
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+}
+
+#firma{
+	text-align: center;  
+    margin: 2px;
+    margin-top: 5px;
+    padding: 3px; 
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+}
+
+#cambio{
+	border: 2px solid black;
+	background-color: #fc6c05;
+	float: left;
+	
+}
+
+#volver{
+	border: 2px solid black;
+	background-color: #fc6c05;
+	float: right;
+}
+
+#imagenes-emp{
+	width: 1200px;
+	height: 400px;
+}
+
+#imagenes-emp img{
+	width: 250px;
+	clear: both;
+	margin: 20px;
+}
+
+#ho{
+	height: 170px;
+}
+
+#munic{
+	height: 170px;
+}
+
+#info{
+	width: 100%;
+	height: 120px;
+	background-color: #0a0a0a;
+	clear: both;
+	color: #fffcfc;
+	margin-top: 30px;
+}
+#info p{
+	margin:10px;
+	clear: both;
+	text-align: center;
+}
+
+#formulario-central h2{
+	color: #fc6c05;
+	text-shadow: 1px 1px 0px rgba(120, 96, 71,1);
+	text-align: center;
+	
+}
+form{
+
+	width: 700px;
+	padding: 16px;
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 30px;
+}
+form ul{
+	width: 80px;
+	font-weight: bold;
+	display: inline-block;
+}
+form li{
+	display: inline;
+}
+
+form input[type="text"],form input[type="email"], form input[type="Telefono"]{
+	width: 250px;
+	padding: 3px 10px;
+	border: 1px solid #f6f6f6;
+	border-radius: 3px;
+	margin: 8px 0;
+	display: inline-block;
+}
+textarea{
+	width: 400px;
+	padding: 3px;
+	border: 1px;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+form input[type="submit"]{
+	width: 100%;
+	padding: 8px;
+	margin-top: 32px;
+	border: 1px;
+	border-radius: 5px;
+	display: block;
+	color: #070808;
+	background-color: #242323;
+}
+
+#boton:hover{
+	transform: scale(1.5);
+	color: #ffffff;
+	background-color: #fa4d02;
+}
+
+/*contenido central de todos los html*/
+footer{
+	height: 150px;
+	background-color: #2b2e36;
+}
+
+
+#redes-sociales{
+	width: 300px;
+	height: 150px;
+	margin-left: 40px;
+	margin-top: 30px;
+	float: left;
+}
+#mail{
+	text-decoration: none;
+	color: #fffcfc;
+}
+
+#datos-empresa{
+	width: 360px;
+	height: 150px;
+	float: right;
+	margin-top: 10px;
+	color: #fffcfc; 
+}
+#derechos p{
+	color: #fffcfc;
+	position: absolute;
+	left: 440px;
+	margin-top: 110px;
+}
+/*pie de pagina*/
+
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+
+header, section, footer{
+	width: 580px;
+}
+
+
+h1{
+	font-size: 20px;	
+}
+
+#logo{
+	width: 250px;
+	float: left;
+}
+
+#menu{
+	width: 320px;
+}
+
+#menu-prin li a{
+	font-size: 14px;
+	padding: 18px 7px;
+}
+
+/*cabecera*/
+
+
+#contenido-central2{
+	height: 580px;   
+}
+
+
+#formulario-central{
+	width: 580px;
+}
+
+
+#content-img{
+	width: 590px;
+	height: auto;
+}
+
+#content1{
+	width: 1000px;
+	height: 890px;
+}
+
+#content2{
+	width: 1000px;
+	height: 890px;
+}
+
+#content3{
+	width: 1000px;
+	height: 890px;
+}
+
+#content4{
+	width: 1000px;
+	height: 890px;
+}
+
+
+#content-img:hover img{
+	transform: scale(1.1);
+}
+
+
+#texto h2{
+	font-size: 25px;
+}
+
+#texto p{
+	font-size: 18px;
+}
+
+
+#content-all h3{
+    font-size: 22px;
+}
+
+#foto1{
+	margin-left: 4px;
+	width: 90%;
+}
+#foto2{
+	margin-left: 4px;
+	width: 90%;
+}
+#foto3{
+	margin-left: 4px;
+	width: 90%;
+}
+#foto4{
+	margin-left: 4px;
+	width: 90%;
+}
+
+#parrafo-repar{
+	float: auto;
+	width: 580px;   
+    margin: 4px;
+    padding: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+#parrafo-redes{
+	float: auto;
+	width: 580px;   
+    margin: 4px;
+    padding: 6px;
+    text-align: center; 
+    font-size: 14px;
+}    
+#parrafo-soporte{
+	float: auto;
+	width: 580px;   
+    margin: 4px;
+    padding: 6px; 
+    font-size: 14px;
+}
+#parrafo-diseño{
+	float: none;
+	width: 580px;   
+    margin: 4px;
+    padding: 6px; 
+    font-size: 14px;
+}
+
+#elegirnos{
+    font-size: 14px;
+}
+
+#humano{
+    font-size: 14px;
+}
+
+#municipal{
+    font-size: 14px;
+}
+
+#firma{
+    font-size: 14px;
+}
+#ho{
+	margin-left: 70px;
+	margin-top: 30px;
+}
+#munic{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+ 
+#info p{
+	margin:8px;
+}
+
+#formulario-central h2{
+	font-size: 20px;
+}
+
+form{
+
+	width: 580px;
+}
+
+
+/*contenido central de todos los html*/
+footer{
+	height: 230px;
+}
+
+
+#redes-sociales{
+	width: 100px;
+}
+#mail{
+	font-size: 14px;
+}
+
+
+#datos-empresa{
+	width: 260px;
+	float: auto;
+}
+
+#datos-empresa h3{
+	text-align: center;
+	margin-top: 5px;
+}
+#derechos p{
+	left: 210px;
+	margin-top: 180px;
+	font-size: 14px;
+}
+/*pie de pagina*/
+
+}/*fin @media*/
+
+@media all and (max-width: 599px){
+
+header, section, footer{
+	width: 90%;
+}
+
+header{
+	height: auto;
+}
+
+#logo{
+	width: 100%;
+	float: none;
+}
+
+#menu{
+	width: 100%;
+	height: auto;
+	float: none;
+}
+#menu li{
+	display: block;
+
+}
+#menu ul li a{
+	font-size: 24px;
+	padding: 5px 100px;
+	width: 100%;
+	text-align: center;
+	margin:0 0 30px 0;
+	box-sizing: border-box;
+}
+
+/*cabecera*/
+
+#contenido-central2{
+	height: 580px;
+}
+
+
+#formulario-central{
+	width: 100%;
+}
+
+
+#content-img{
+	width: 90%;
+	height: auto;
+}
+
+#content-img img{
+	width: 100%;
+}
+
+
+#texto{
+	width: 100%;
+	height:auto;
+	margin-top: 10px;
+	margin-left: 1px;
+}
+
+#texto h2{
+	font-size: 16px;
+}
+
+#texto p{
+	font-size: 12px;
+}
+
+#foto1{
+	margin-left: auto;
+	width: 95%;
+}
+#foto2{
+	margin-left: auto;
+	width: 95%;
+}
+#foto3{
+	margin-left: auto;
+	width: 95%;
+}
+#foto4{
+	margin-left: auto;
+	width: 95%;
+}
+
+#parrafo-repar{
+	float: none;
+	width: 95%; 
+	font-size: 16;  
+}
+#parrafo-redes{
+	float: none;
+	width: 95%;   
+    font-size: 12;
+    
+}
+#parrafo-soporte{
+	float: none;
+	width: 95%;   
+    font-size: 12;
+}
+#parrafo-diseño{
+	float: none;
+	width: 95%;   
+    font-size: 12;
+}
+
+#elegirnos{
+    font-size: 14px;
+}
+
+#humano{
+    font-size: 14px;
+}
+
+#municipal{
+    font-size: 14px;
+}
+
+#firma{
+    font-size: 14px;
+}
+#ho{
+	margin-left: auto;
+	margin-top: auto;
+	width: 90%;
+	height: auto;
+}
+#munic{
+    margin-left: auto;
+    margin-top: auto;
+    width: 90%;
+	height: auto;
+}
+ 
+#info{
+	width: 100%;
+	height: auto;
+}
+
+form{
+	width: 90%;
+}
+form ul{
+	width: 80%;
+}
+
+form input[type="text"],form input[type="email"], form input[type="Telefono"]{
+	width: 90%;
+}
+textarea{
+	width: 90%;
+}
+
+
+#boton:hover{
+	transform: scale(1.2);
+}
+
+/*contenido central de todos los html*/
+footer{
+	height: auto;
+}
+
+
+#redes-sociales{
+	width: 5%;
+	height: auto;
+	float: none;
+	margin-left: 0;
+}
+#mail{
+	font-size: 12px;	
+}
+
+#datos-empresa{
+	width: 40%;
+	height: auto;
+	float: none; 
+	margin-left: 50%;
+	margin-top: 1px;
+}
+
+#datos-empresa h3{
+	margin-top: 2px;
+}
+
+#derechos p{
+	left: auto;
+	margin-top: auto;
+	width: 30%;
+	font-size: 12px;
+	margin-left: 0%;
+}
+}
+
